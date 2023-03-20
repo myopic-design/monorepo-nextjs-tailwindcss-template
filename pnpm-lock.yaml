@@ -121,7 +121,7 @@ importers:
   packages/eslint-config-custom:
     specifiers:
       eslint-config-next: 13.2.4
-      eslint-config-prettier: 8.7.0
+      eslint-config-prettier: 8.8.0
       eslint-config-turbo: 0.0.10
       eslint-plugin-jest-dom: 4.0.3
       eslint-plugin-playwright: 0.12.0
@@ -131,7 +131,7 @@ importers:
       next: 13.2.4
     dependencies:
       eslint-config-next: 13.2.4_vgl77cfdswitgr47lm5swmv43m
-      eslint-config-prettier: 8.7.0_eslint@8.36.0
+      eslint-config-prettier: 8.8.0_eslint@8.36.0
       eslint-config-turbo: 0.0.10_eslint@8.36.0
       eslint-plugin-jest-dom: 4.0.3_eslint@8.36.0
       eslint-plugin-playwright: 0.12.0_eslint@8.36.0
@@ -6601,8 +6601,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-config-prettier/8.7.0_eslint@8.36.0:
-    resolution: {integrity: sha512-HHVXLSlVUhMSmyW4ZzEuvjpwqamgmlfkutD53cYXLikh4pt/modINRcCIApJ84czDxM4GZInwUrromsDdTImTA==}
+  /eslint-config-prettier/8.8.0_eslint@8.36.0:
+    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
