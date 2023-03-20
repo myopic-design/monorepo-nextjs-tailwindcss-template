@@ -30,7 +30,7 @@ importers:
       prettier-plugin-tailwindcss: 0.2.5
       storybook: 7.0.0-rc.4
       style-loader: 3.3.2
-      tsup: 6.6.3
+      tsup: 6.7.0
       turbo: 1.8.4
       typescript: 4.9.5
     devDependencies:
@@ -60,7 +60,7 @@ importers:
       prettier-plugin-tailwindcss: 0.2.5_prettier@2.8.5
       storybook: 7.0.0-rc.4
       style-loader: 3.3.2_webpack@5.76.2
-      tsup: 6.6.3_jcirbqmbgvelyy4z7pdinhwrdq
+      tsup: 6.7.0_jcirbqmbgvelyy4z7pdinhwrdq
       turbo: 1.8.4
       typescript: 4.9.5
 
@@ -11733,14 +11733,14 @@ packages:
   /tslib/2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
 
-  /tsup/6.6.3_jcirbqmbgvelyy4z7pdinhwrdq:
-    resolution: {integrity: sha512-OLx/jFllYlVeZQ7sCHBuRVEQBBa1tFbouoc/gbYakyipjVQdWy/iQOvmExUA/ewap9iQ7tbJf9pW0PgcEFfJcQ==}
+  /tsup/6.7.0_jcirbqmbgvelyy4z7pdinhwrdq:
+    resolution: {integrity: sha512-L3o8hGkaHnu5TdJns+mCqFsDBo83bJ44rlK7e6VdanIvpea4ArPcU3swWGsLVbXak1PqQx/V+SSmFPujBK+zEQ==}
     engines: {node: '>=14.18'}
     hasBin: true
     peerDependencies:
       '@swc/core': ^1
       postcss: ^8.4.12
-      typescript: ^4.1.0
+      typescript: '>=4.1.0'
     peerDependenciesMeta:
       '@swc/core':
         optional: true
