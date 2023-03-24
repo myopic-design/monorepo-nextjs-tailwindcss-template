@@ -19,7 +19,7 @@ class MyDocument extends Document {
     const csp = getCspContent(NextScript.getInlineScriptSource(this.props));
 
     return (
-      <Html className="bg-zinc-900">
+      <Html lang="en" className="bg-zinc-900">
         <Head>
           <meta httpEquiv="Content-Security-Policy" content={csp} />
         </Head>

@@ -24,6 +24,10 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
         <title>Myopic Design — Next.js & Tailwind CSS Monorepo Template</title>
+        <meta
+          name="description"
+          content="A monorepo template using TypeScript, Next.js, Tailwind CSS, Storybook, Jest, Playwright, ESLint, CommitLint, and Prettier."
+        />
       </Head>
 
       <main className="mx-auto w-auto px-4 pt-16 pb-8 sm:pt-24 lg:px-8">
