@@ -6,6 +6,10 @@ inputs:
     description: "Node version"
     required: true
     default: "18"
+  pnpm-version:
+    description: "pnpm version"
+    required: true
+    default: "7"
 
 runs:
   using: "composite"
@@ -13,7 +17,7 @@ runs:
     - name: Set up pnpm
       uses: pnpm/action-setup@v2
       with:
-        version: "7"
+        version: ${{ inputs.pnpm-version }}
     - name: Set up Node ${{ inputs.node-version }}
       uses: actions/setup-node@v3
       with:
@@ -24,4 +28,7 @@ runs:
       shell: bash
     - name: Install Playwright browsers
       run: pnpm playwright install --with-deps
+      shell: bash
+    - name: Install Lighthouse globally
+      run: npm install -g @lhci/cli
       shell: bash

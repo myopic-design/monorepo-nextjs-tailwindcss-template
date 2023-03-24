@@ -2,17 +2,15 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: !!process.env.ANALYZE,
 });
 
-const isProduction = process.env.NODE_ENV === "production";
-const githubRepository = (isProduction && process.env.GITHUB_REPOSITORY) || "";
-const githubRepositoryName = githubRepository.replace(/.*?\//, "/");
+module.exports = ({ basePath }) => {
+  /** @type {import('next').NextConfig} */
+  const config = {
+    basePath,
+    images: { unoptimized: true },
+    output: "export",
+    pageExtensions: ["page.tsx", "page.ts", "page.jsx", "page.js"],
+    reactStrictMode: true,
+  };
 
-/** @type {import('next').NextConfig} */
-const config = {
-  assetPrefix: githubRepositoryName,
-  basePath: githubRepositoryName,
-  output: "export",
-  pageExtensions: ["page.tsx", "page.ts", "page.jsx", "page.js"],
-  reactStrictMode: true,
+  return withBundleAnalyzer(config);
 };
-
-module.exports = withBundleAnalyzer(config);

@@ -3,7 +3,7 @@
   "name": "website",
   "version": "0.0.0",
   "scripts": {
-    "clean": "rm -rf .next .swc .turbo coverage dist e2e-report e2e-results out storybook-static",
+    "clean": "rm -rf .lighthouseci .next .swc .turbo coverage dist e2e-report e2e-results out storybook-static",
     "dev": "next dev --port 3002",
     "build": "next build && next export",
     "start": "next start --port 3002",
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "jest-config": "workspace:*",
+    "lighthouse-config": "workspace:*",
     "next-config": "workspace:*",
     "playwright-config": "workspace:*",
     "storybook-config": "workspace:*",

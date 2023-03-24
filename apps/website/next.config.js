@@ -1,1 +1,3 @@
-module.exports = require("next-config/next.config");
+module.exports = require("next-config/next.config")({
+  basePath: "/monorepo-nextjs-tailwindcss-template",
+});

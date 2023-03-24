@@ -1,7 +1,7 @@
 const { defineConfig, devices } = require("@playwright/test");
 
-module.exports = ({ port }) => {
-  const baseURL = `http://localhost:${port}`;
+module.exports = ({ basePath, port }) => {
+  const baseURL = `http://localhost:${port}${basePath}`;
 
   /** @type {import('@playwright/test').PlaywrightTestConfig} */
   const config = {

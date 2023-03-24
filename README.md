@@ -10,6 +10,7 @@ This is a monorepo template using:
 - 🧪 [Testing Library](https://testing-library.com/)
 - 🃏 [Jest](https://jestjs.io/)
 - 🎭 [Playwright](https://playwright.dev/)
+- 💡 [Lighthouse](https://developer.chrome.com/docs/lighthouse/)
 - 🧹 [ESLint](https://eslint.org/)
 - 🤖 [CommitLint](https://commitlint.js.org/)
 - 💖 [Prettier](https://prettier.io/)
@@ -29,6 +30,7 @@ This monorepo includes a few apps and packages.
 - `packages/utils`: utilities shared by both `omega-star` and `website` apps
 - `packages/eslint-config-custom`: shared ESLint configuration
 - `packages/jest-config`: shared Jest configuration
+- `packages/lighthouse-config`: shared Lighthouse configuration
 - `packages/next-config`: shared Next.js configuration
 - `packages/playwright-config`: shared Playwright configuration
 - `packages/storybook-config`: shared Storybook configuration

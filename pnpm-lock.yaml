@@ -67,6 +67,7 @@ importers:
   apps/omega-star:
     specifiers:
       jest-config: workspace:*
+      lighthouse-config: workspace:*
       next: 13.2.4
       next-config: workspace:*
       playwright-config: workspace:*
@@ -85,6 +86,7 @@ importers:
       utils: link:../../packages/utils
     devDependencies:
       jest-config: link:../../packages/jest-config
+      lighthouse-config: link:../../packages/lighthouse-config
       next-config: link:../../packages/next-config
       playwright-config: link:../../packages/playwright-config
       storybook-config: link:../../packages/storybook-config
@@ -94,6 +96,7 @@ importers:
   apps/website:
     specifiers:
       jest-config: workspace:*
+      lighthouse-config: workspace:*
       next: 13.2.4
       next-config: workspace:*
       playwright-config: workspace:*
@@ -112,6 +115,7 @@ importers:
       utils: link:../../packages/utils
     devDependencies:
       jest-config: link:../../packages/jest-config
+      lighthouse-config: link:../../packages/lighthouse-config
       next-config: link:../../packages/next-config
       playwright-config: link:../../packages/playwright-config
       storybook-config: link:../../packages/storybook-config
@@ -149,6 +153,9 @@ importers:
       '@testing-library/jest-dom': 5.16.5
       jest-environment-jsdom: 29.5.0
       next: 13.2.4_biqbaboplfbrettd7655fr4n2y
+
+  packages/lighthouse-config:
+    specifiers: {}
 
   packages/next-config:
     specifiers:

@@ -26,7 +26,7 @@ export default function Home() {
         <title>Myopic Design — Next.js & Tailwind CSS Monorepo Template</title>
         <meta
           name="description"
-          content="A monorepo template using TypeScript, Next.js, Tailwind CSS, Storybook, Jest, Playwright, ESLint, CommitLint, and Prettier."
+          content="A monorepo template using TypeScript, Next.js, Tailwind CSS, Storybook, Jest, Playwright, Lighthouse, ESLint, CommitLint, and Prettier."
         />
       </Head>
 
