@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.0.1...v1.0.2) (2023-03-25)
+
+
+### Bug Fixes
+
+* solve issues flagged by Lighthouse ([1bbefe9](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/1bbefe9390bc7f2651c37dbf1fd27fa2ea336bba))
+
 ## [1.0.1](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.0.0...v1.0.1) (2023-03-21)
 
 
