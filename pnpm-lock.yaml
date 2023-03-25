@@ -164,13 +164,13 @@ importers:
       '@storybook/addon-essentials': 7.0.0-rc.8
       '@storybook/addon-interactions': 7.0.0-rc.8
       '@storybook/addon-links': 7.0.0-rc.8
-      '@storybook/addon-styling': 0.3.1
+      '@storybook/addon-styling': 0.3.2
       '@storybook/nextjs': 7.0.0-rc.8
     devDependencies:
       '@storybook/addon-essentials': 7.0.0-rc.8_biqbaboplfbrettd7655fr4n2y
       '@storybook/addon-interactions': 7.0.0-rc.8_biqbaboplfbrettd7655fr4n2y
       '@storybook/addon-links': 7.0.0-rc.8_biqbaboplfbrettd7655fr4n2y
-      '@storybook/addon-styling': 0.3.1_hwu6ulxsezsylkzwo5tnrzvpby
+      '@storybook/addon-styling': 0.3.2_hwu6ulxsezsylkzwo5tnrzvpby
       '@storybook/nextjs': 7.0.0-rc.8_ejzau7z27ryghv5irh5gdlb6am
 
   packages/tailwindcss-config:
@@ -2819,8 +2819,8 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
-  /@storybook/addon-styling/0.3.1_hwu6ulxsezsylkzwo5tnrzvpby:
-    resolution: {integrity: sha512-vKE9qG0cHKqCenhoStPXatEY67rldxhsWgChZZCm1xPSBsdwa5MuXc7IAbsx2H7GPOJEy367gIY6HGqw0oLfAA==}
+  /@storybook/addon-styling/0.3.2_hwu6ulxsezsylkzwo5tnrzvpby:
+    resolution: {integrity: sha512-ztKy9uU2yKBtvBp4/Km4LD1JCNNFHpXS33LjbeIfho0toRv100g8tUojrdnoRX1b2KVK6cqep5mJV0z2ak9hIQ==}
     peerDependencies:
       '@storybook/addons': ^6.5.8
       '@storybook/api': ^6.5.8
