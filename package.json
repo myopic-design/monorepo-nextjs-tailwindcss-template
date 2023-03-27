@@ -56,7 +56,7 @@
     "storybook": "7.0.0-rc.8",
     "style-loader": "3.3.2",
     "tsup": "6.7.0",
-    "turbo": "1.8.5",
+    "turbo": "1.8.6",
     "typescript": "5.0.2"
   },
   "packageManager": "pnpm@7.30.5"
