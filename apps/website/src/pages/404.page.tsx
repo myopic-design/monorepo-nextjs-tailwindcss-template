@@ -8,7 +8,7 @@ export default function NotFound() {
         <meta name="description" content="Sorry, the page you're looking for isn't there." />
       </Head>
 
-      <main className="mx-auto w-auto px-4 pt-16 pb-8 sm:pt-24 lg:px-8">
+      <main className="mx-auto w-auto px-4 pb-8 pt-16 sm:pt-24 lg:px-8">
         <h1 className="mx-auto text-center text-6xl font-extrabold tracking-tight text-white sm:text-7xl lg:text-8xl xl:text-8xl">
           Page Not Found
         </h1>
