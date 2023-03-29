@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.1.0...v1.2.0) (2023-03-29)
+
+
+### Features
+
+* extend stricter ESLint presets ([23a347b](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/23a347b049a70d8c491ecab0d94b47bd8ccb8f14))
+
 ## [1.1.0](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.0.3...v1.1.0) (2023-03-28)
 
 
