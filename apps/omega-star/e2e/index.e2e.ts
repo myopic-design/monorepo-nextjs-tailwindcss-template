@@ -11,6 +11,6 @@ test("has title", async ({ page }) => {
 test("has heading", async ({ page }) => {
   await page.goto(basePath);
 
-  const heading = await page.getByRole("heading", { level: 1 });
+  const heading = page.getByRole("heading", { level: 1 });
   await expect(heading).toContainText("Omega Star");
 });

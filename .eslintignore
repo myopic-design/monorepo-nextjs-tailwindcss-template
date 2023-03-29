@@ -9,3 +9,4 @@ e2e-report/
 e2e-results/
 out/
 storybook-static/
+*.config.js

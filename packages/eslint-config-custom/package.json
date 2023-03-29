@@ -2,7 +2,7 @@
   "private": true,
   "name": "eslint-config-custom",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "eslint.config.js",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.57.0",
     "eslint-config-next": "13.2.4",
