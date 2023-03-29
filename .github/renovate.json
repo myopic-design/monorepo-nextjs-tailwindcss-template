@@ -9,6 +9,7 @@
     ":automergeTypes",
     ":automergeMinor"
   ],
+  "timezone": "America/Los_Angeles",
   "schedule": ["after 8pm every weekday", "every weekend"],
   "automergeType": "pr",
   "platformAutomerge": true,
