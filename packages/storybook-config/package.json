@@ -3,10 +3,10 @@
   "name": "storybook-config",
   "version": "0.0.0",
   "devDependencies": {
-    "@storybook/addon-essentials": "7.0.0-rc.9",
-    "@storybook/addon-interactions": "7.0.0-rc.9",
-    "@storybook/addon-links": "7.0.0-rc.9",
+    "@storybook/addon-essentials": "7.0.0-rc.10",
+    "@storybook/addon-interactions": "7.0.0-rc.10",
+    "@storybook/addon-links": "7.0.0-rc.10",
     "@storybook/addon-styling": "0.3.2",
-    "@storybook/nextjs": "7.0.0-rc.9"
+    "@storybook/nextjs": "7.0.0-rc.10"
   }
 }
