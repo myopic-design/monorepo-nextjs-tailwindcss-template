@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.2.0...v1.2.1) (2023-03-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-turbo to v1.8.8 ([d93f9cc](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/d93f9cca8789b990563cb0cb97cc36b9685d8936))
+
 ## [1.2.0](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.1.0...v1.2.0) (2023-03-29)
 
 
