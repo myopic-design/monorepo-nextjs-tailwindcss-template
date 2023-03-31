@@ -2,10 +2,10 @@
 
 This is a monorepo template using:
 
-- 📏 [TypeScript 4.9](https://www.typescriptlang.org/)
+- 📏 [TypeScript 5.0](https://www.typescriptlang.org/)
 - ⚡️ [Next.js 13.2](https://nextjs.org/)
 - ⚛️ [React 18.2](https://reactjs.org/)
-- 🌬️ [Tailwind CSS 3.2](https://tailwindcss.com/)
+- 🌬️ [Tailwind CSS 3.3](https://tailwindcss.com/)
 - 📕 [Storybook 7.0](https://storybook.js.org/)
 - 🧪 [Testing Library](https://testing-library.com/)
 - 🃏 [Jest](https://jestjs.io/)
