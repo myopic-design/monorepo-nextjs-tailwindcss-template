@@ -1,3 +1,5 @@
+import { resolve } from "node:path";
+
 /** @type { import('@storybook/nextjs').StorybookConfig } */
 const config = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.{js,jsx,ts,tsx}"],
@@ -5,6 +7,7 @@ const config = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
+    "@storybook/addon-a11y",
     "@storybook/addon-styling",
   ],
   framework: {
@@ -16,8 +19,9 @@ const config = {
     enableCrashReports: true,
   },
   docs: {
-    autodocs: "tag",
+    autodocs: true,
   },
+  staticDirs: [resolve(__dirname, "static")],
 };
 
 export default config;

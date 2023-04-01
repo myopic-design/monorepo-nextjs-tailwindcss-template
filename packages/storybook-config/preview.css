@@ -1,0 +1,12 @@
+:root {
+  --storybook-background-color-light: #fafafa;
+  --storybook-background-color-dark: #171717;
+}
+
+html {
+  --storybook-background-color: var(--storybook-background-color-light);
+}
+
+html.dark {
+  --storybook-background-color: var(--storybook-background-color-dark);
+}

@@ -1,28 +1,49 @@
+import "./preview.css";
+
 import { withThemeByClassName } from "@storybook/addon-styling";
+
+import * as themes from "./themes";
 
 /** @type { import('@storybook/react').Preview } */
 const config = {
   decorators: [
     withThemeByClassName({
       themes: {
-        light: "light",
-        dark: "dark",
+        Light: "",
+        Dark: "dark",
       },
-      defaultTheme: "dark",
+      defaultTheme: "Dark",
     }),
   ],
   parameters: {
-    backgrounds: {
-      default: "dark",
-    },
     actions: {
       argTypesRegex: "^on[A-Z].*",
+    },
+    backgrounds: {
+      default: "Theme",
+      values: [
+        {
+          name: "Theme",
+          value: "var(--storybook-background-color)",
+        },
+        {
+          name: "Light",
+          value: "var(--storybook-background-color-light)",
+        },
+        {
+          name: "Dark",
+          value: "var(--storybook-background-color-dark)",
+        },
+      ],
     },
     controls: {
       matchers: {
         color: /(background|color)$/i,
         date: /Date$/,
       },
+    },
+    docs: {
+      theme: themes.dark,
     },
   },
 };
