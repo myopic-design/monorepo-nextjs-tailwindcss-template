@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.2.1...v1.3.0) (2023-04-04)
+
+
+### Features
+
+* add custom Storybook theme ([4a448be](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/4a448bed5601f391c2013311acd30b4c4abe32ff))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.57.1 ([2f77c57](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/2f77c57cf99e9fa7bcdbe53827da7d12149187a6))
+
 ## [1.2.1](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.2.0...v1.2.1) (2023-03-30)
 
 
