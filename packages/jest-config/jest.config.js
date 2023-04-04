@@ -3,7 +3,7 @@ const nextJest = require("next/jest");
 /** @type {import('jest').Config} */
 const config = {
   coverageReporters: ["text", "html"],
-  setupFilesAfterEnv: ["jest-config/setup.config.js"],
+  setupFilesAfterEnv: ["jest-config/jest.setup.js"],
   testEnvironment: "jest-environment-jsdom",
 };
 
