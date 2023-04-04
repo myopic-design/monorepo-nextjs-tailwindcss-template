@@ -1,6 +1,7 @@
 import "./preview.css";
 
 import { withThemeByClassName } from "@storybook/addon-styling";
+import { MINIMAL_VIEWPORTS as viewports } from "@storybook/addon-viewport";
 
 import * as themes from "./themes";
 
@@ -44,6 +45,9 @@ const config = {
     },
     docs: {
       theme: themes.dark,
+    },
+    viewport: {
+      viewports,
     },
   },
 };

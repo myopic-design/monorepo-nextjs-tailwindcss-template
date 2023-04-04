@@ -3,7 +3,7 @@ import { defineConfig } from "tsup";
 
 export default defineConfig((options: Options) => ({
   entry: ["src/index.ts", "src/styles.css"],
-  external: ["next", "react"],
+  external: ["@headlessui/react", "clsx", "next", "react"],
   format: ["esm"],
   clean: true,
   dts: true,

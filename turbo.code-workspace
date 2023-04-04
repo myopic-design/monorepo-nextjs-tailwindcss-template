@@ -47,6 +47,7 @@
     },
     "javascript.preferences.importModuleSpecifier": "non-relative",
     "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.tsdk": "root/node_modules/typescript/lib",
     "workbench.editor.labelFormat": "medium"
   },
   "tasks": {

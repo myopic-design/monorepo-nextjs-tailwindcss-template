@@ -1,4 +1,4 @@
-const colors = require("tailwindcss/colors");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 const hocusPlugin = require("./hocus.plugin");
 
@@ -9,11 +9,9 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    extend: {
-      colors: {
-        brandblue: colors.blue[500],
-        brandred: colors.red[500],
-      },
+    screens: {
+      xs: "414px",
+      ...defaultTheme.screens,
     },
   },
   plugins: [hocusPlugin],

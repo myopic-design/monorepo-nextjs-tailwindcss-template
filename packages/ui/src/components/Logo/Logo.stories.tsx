@@ -1,11 +1,13 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { Button } from "./Button";
+import { Logo } from "./Logo";
 
 const meta = {
-  component: Button,
-  tags: ["autodocs"],
-} satisfies Meta<typeof Button>;
+  component: Logo,
+  args: {
+    className: "h-10 w-auto",
+  },
+} satisfies Meta<typeof Logo>;
 
 export default meta;
 

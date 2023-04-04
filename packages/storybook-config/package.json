@@ -8,6 +8,7 @@
     "@storybook/addon-interactions": "7.0.2",
     "@storybook/addon-links": "7.0.2",
     "@storybook/addon-styling": "1.0.0-next.1",
+    "@storybook/addon-viewport": "7.0.2",
     "@storybook/manager-api": "7.0.2",
     "@storybook/nextjs": "7.0.2",
     "@storybook/theming": "7.0.2"

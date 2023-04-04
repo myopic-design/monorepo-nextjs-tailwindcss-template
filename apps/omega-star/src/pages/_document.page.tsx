@@ -8,6 +8,9 @@ import Document, {
 } from "next/document";
 import { getCspContent } from "utils";
 
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
+
 class MyDocument extends Document {
   static override async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
     const initialProps = await Document.getInitialProps(ctx);
@@ -19,12 +22,14 @@ class MyDocument extends Document {
     const csp = getCspContent(NextScript.getInlineScriptSource(this.props));
 
     return (
-      <Html lang="en" className="bg-zinc-900">
+      <Html lang="en">
         <Head>
           <meta httpEquiv="Content-Security-Policy" content={csp} />
         </Head>
-        <body>
+        <body className="bg-neutral-50 dark:bg-neutral-900">
+          <Header />
           <Main />
+          <Footer />
           <NextScript />
         </body>
       </Html>

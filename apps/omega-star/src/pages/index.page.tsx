@@ -1,9 +1,9 @@
 import Head from "next/head";
-import { Button } from "ui";
+import { Button, Container } from "ui";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <>
       <Head>
         <title>Myopic Design — Omega Star</title>
         <meta
@@ -12,17 +12,19 @@ export default function Home() {
         />
       </Head>
 
-      <main className="mx-auto w-auto px-4 pb-8 pt-16 sm:pt-24 lg:px-8">
-        <h1 className="mx-auto text-center text-6xl font-extrabold tracking-tight text-white sm:text-7xl lg:text-8xl xl:text-8xl">
-          Omega Star
-          <span className="from-brandred to-brandblue block bg-gradient-to-r bg-clip-text px-2 text-transparent">
-            Myopic Design
-          </span>
-        </h1>
-        <div className="mx-auto mt-5 max-w-xl sm:flex sm:justify-center md:mt-8">
-          <Button />
-        </div>
-      </main>
-    </div>
+      <Container>
+        <main className="pb-8 pt-16 sm:pt-24">
+          <h1 className="mx-auto text-center text-6xl font-extrabold text-neutral-900 dark:text-white sm:text-7xl lg:text-8xl">
+            Omega Star
+            <span className="block bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text py-8 text-transparent">
+              Myopic Design
+            </span>
+          </h1>
+          <div className="mx-auto mt-5 max-w-xl sm:flex sm:justify-center md:mt-8">
+            <Button>Read the docs</Button>
+          </div>
+        </main>
+      </Container>
+    </>
   );
 }
