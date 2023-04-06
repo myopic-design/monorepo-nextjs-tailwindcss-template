@@ -1,5 +1,7 @@
 const colors = require("tailwindcss/colors");
 
+const hocusPlugin = require("./hocus.plugin");
+
 module.exports = {
   content: [
     "src/**/*.{js,ts,jsx,tsx}",
@@ -14,5 +16,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [hocusPlugin],
 };
