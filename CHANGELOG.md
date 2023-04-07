@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.0](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.3.0...v1.4.0) (2023-04-07)
+
+
+### Features
+
+* add `hocus` variants to Tailwind config ([62c26c9](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/62c26c99a7703fad60dbbc2f763e8ff1afc30b48))
+* add header and footer components ([d40a6e6](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/d40a6e64909eae541f09042959a3bffa68bf0e7b))
+
 ## [1.3.0](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.2.1...v1.3.0) (2023-04-04)
 
 
