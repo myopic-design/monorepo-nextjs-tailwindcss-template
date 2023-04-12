@@ -245,8 +245,8 @@ importers:
         specifier: 7.0.2
         version: 7.0.2(react-dom@18.2.0)(react@18.2.0)
       '@storybook/addon-styling':
-        specifier: 1.0.0-next.1
-        version: 1.0.0-next.1(react-dom@18.2.0)(react@18.2.0)
+        specifier: 1.0.0
+        version: 1.0.0(@types/node@18.15.11)(postcss@8.4.21)(react-dom@18.2.0)(react@18.2.0)(ts-node@10.9.1)(typescript@5.0.4)(webpack@5.77.0)
       '@storybook/addon-viewport':
         specifier: 7.0.2
         version: 7.0.2(react-dom@18.2.0)(react@18.2.0)
@@ -3026,32 +3026,41 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
-  /@storybook/addon-styling@1.0.0-next.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-VtR+pqLO4t61ntWgGNIFRXnnLmlUoTtqgyd2TyCHJS70475+g7U4O+tU2wzdGsHak5YsUbk7FE7D7Ktbj1mKJA==}
+  /@storybook/addon-styling@1.0.0(@types/node@18.15.11)(postcss@8.4.21)(react-dom@18.2.0)(react@18.2.0)(ts-node@10.9.1)(typescript@5.0.4)(webpack@5.77.0):
+    resolution: {integrity: sha512-JfFPIg8Q/z8fjg5HOfFUK+zgs7FXZamCx58elrxOggcQ4FXCs5buRlw6b/mwzAw4nSGDyBPpvZVqEwh0xcduIQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-      resolve-url-loader: ^5.0.0
-      sass-loader: ^10.4.1
     peerDependenciesMeta:
       react:
         optional: true
       react-dom:
         optional: true
-      resolve-url-loader:
-        optional: true
-      sass-loader:
-        optional: true
     dependencies:
       '@storybook/api': 7.0.3(react-dom@18.2.0)(react@18.2.0)
       '@storybook/components': 7.0.3(react-dom@18.2.0)(react@18.2.0)
       '@storybook/core-events': 7.0.3
-      '@storybook/manager-api': 7.0.3(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/manager-api': 7.0.2(react-dom@18.2.0)(react@18.2.0)
       '@storybook/preview-api': 7.0.3
-      '@storybook/theming': 7.0.3(react-dom@18.2.0)(react@18.2.0)
+      '@storybook/theming': 7.0.2(react-dom@18.2.0)(react@18.2.0)
       '@storybook/types': 7.0.3
+      css-loader: 6.7.3(webpack@5.77.0)
+      postcss-loader: 7.2.4(@types/node@18.15.11)(postcss@8.4.21)(ts-node@10.9.1)(typescript@5.0.4)(webpack@5.77.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
+      resolve-url-loader: 5.0.0
+      sass-loader: 13.2.2(webpack@5.77.0)
+      style-loader: 3.3.2(webpack@5.77.0)
+    transitivePeerDependencies:
+      - '@types/node'
+      - fibers
+      - node-sass
+      - postcss
+      - sass
+      - sass-embedded
+      - ts-node
+      - typescript
+      - webpack
     dev: true
 
   /@storybook/addon-toolbars@7.0.2(react-dom@18.2.0)(react@18.2.0):
@@ -10033,6 +10042,32 @@ packages:
       webpack: 5.77.0(esbuild@0.17.14)
     dev: true
 
+  /postcss-loader@7.2.4(@types/node@18.15.11)(postcss@8.4.21)(ts-node@10.9.1)(typescript@5.0.4)(webpack@5.77.0):
+    resolution: {integrity: sha512-F88rpxxNspo5hatIc+orYwZDtHFaVFOSIVAx+fBfJC1GmhWbVmPWtmg2gXKE1OxJbneOSGn8PWdIwsZFcruS+w==}
+    engines: {node: '>= 14.15.0'}
+    peerDependencies:
+      postcss: ^7.0.0 || ^8.0.1
+      ts-node: '>=10'
+      typescript: '>=4'
+      webpack: ^5.0.0
+    peerDependenciesMeta:
+      ts-node:
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      cosmiconfig: 8.1.3
+      cosmiconfig-typescript-loader: 4.3.0(@types/node@18.15.11)(cosmiconfig@8.1.3)(ts-node@10.9.1)(typescript@5.0.4)
+      klona: 2.0.6
+      postcss: 8.4.21
+      semver: 7.3.8
+      ts-node: 10.9.1(@types/node@18.15.11)(typescript@5.0.4)
+      typescript: 5.0.4
+      webpack: 5.77.0(esbuild@0.17.14)
+    transitivePeerDependencies:
+      - '@types/node'
+    dev: true
+
   /postcss-modules-extract-imports@3.0.0(postcss@8.4.21):
     resolution: {integrity: sha512-bdHleFnP3kZ4NYDhuGlVK+CMrQ/pqUm8bx/oGL93K6gVwiclvX5x0n76fYMKuIGKzlABOy13zsvqjb0f92TEXw==}
     engines: {node: ^10 || ^12 || >= 14}
@@ -10818,6 +10853,30 @@ packages:
     peerDependencies:
       fibers: '>= 3.1.0'
       node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
+      sass: ^1.3.0
+      sass-embedded: '*'
+      webpack: ^5.0.0
+    peerDependenciesMeta:
+      fibers:
+        optional: true
+      node-sass:
+        optional: true
+      sass:
+        optional: true
+      sass-embedded:
+        optional: true
+    dependencies:
+      klona: 2.0.6
+      neo-async: 2.6.2
+      webpack: 5.77.0(esbuild@0.17.14)
+    dev: true
+
+  /sass-loader@13.2.2(webpack@5.77.0):
+    resolution: {integrity: sha512-nrIdVAAte3B9icfBiGWvmMhT/D+eCDwnk+yA7VE/76dp/WkHX+i44Q/pfo71NYbwj0Ap+PGsn0ekOuU1WFJ2AA==}
+    engines: {node: '>= 14.15.0'}
+    peerDependencies:
+      fibers: '>= 3.1.0'
+      node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
       sass: ^1.3.0
       sass-embedded: '*'
       webpack: ^5.0.0
