@@ -202,8 +202,8 @@ importers:
         specifier: 0.6.11
         version: 0.6.11(eslint@8.38.0)(typescript@5.0.4)
       eslint-plugin-testing-library:
-        specifier: 5.10.2
-        version: 5.10.2(eslint@8.38.0)(typescript@5.0.4)
+        specifier: 5.10.3
+        version: 5.10.3(eslint@8.38.0)(typescript@5.0.4)
       next:
         specifier: 13.3.0
         version: 13.3.0(@babel/core@7.21.4)(react-dom@18.2.0)(react@18.2.0)
@@ -6912,13 +6912,13 @@ packages:
       - typescript
     dev: false
 
-  /eslint-plugin-testing-library@5.10.2(eslint@8.38.0)(typescript@5.0.4):
-    resolution: {integrity: sha512-f1DmDWcz5SDM+IpCkEX0lbFqrrTs8HRsEElzDEqN/EBI0hpRj8Cns5+IVANXswE8/LeybIJqPAOQIFu2j5Y5sw==}
+  /eslint-plugin-testing-library@5.10.3(eslint@8.38.0)(typescript@5.0.4):
+    resolution: {integrity: sha512-0yhsKFsjHLud5PM+f2dWr9K3rqYzMy4cSHs3lcmFYMa1CdSzRvHGgXvsFarBjZ41gU8jhTdMIkg8jHLxGJqLqw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6'}
     peerDependencies:
       eslint: ^7.5.0 || ^8.0.0
     dependencies:
-      '@typescript-eslint/utils': 5.57.0(eslint@8.38.0)(typescript@5.0.4)
+      '@typescript-eslint/utils': 5.58.0(eslint@8.38.0)(typescript@5.0.4)
       eslint: 8.38.0
     transitivePeerDependencies:
       - supports-color
