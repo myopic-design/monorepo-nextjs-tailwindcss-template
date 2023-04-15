@@ -29,8 +29,8 @@
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.5.1",
-    "@commitlint/config-conventional": "17.4.4",
+    "@commitlint/cli": "17.6.1",
+    "@commitlint/config-conventional": "17.6.1",
     "@playwright/test": "1.32.3",
     "@storybook/blocks": "7.0.7",
     "@storybook/jest": "0.1.0",
