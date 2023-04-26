@@ -11,7 +11,7 @@ type CspDirective =
   | "manifest-src"
   | "media-src"
   | "object-src"
-  | "prefetch-src" // experimental
+  | "prefetch-src" // deprecated
   | "script-src"
   | "script-src-elem"
   | "script-src-attr"
@@ -61,13 +61,12 @@ const flattenDirectives = (directives: CspDirectives): string =>
 
 const cspDev = {
   "default-src": ["'none'"],
-  "prefetch-src": ["'self'"],
-  "style-src": ["'self'", "'unsafe-inline'"],
+  "connect-src": ["'self'"],
   "font-src": ["'self'"],
   "frame-src": ["'self'"],
-  "connect-src": ["'self'"],
   "img-src": ["'self'"],
   "script-src": ["'self'", "'unsafe-eval'"],
+  "style-src": ["'self'", "'unsafe-inline'"],
 } satisfies CspDirectives;
 
 const cspProd = {
@@ -77,7 +76,6 @@ const cspProd = {
   "font-src": ["'self'"],
   "frame-src": ["'self'"],
   "img-src": ["'self'"],
-  "prefetch-src": ["'self'"],
   "script-src": ["'self'"],
   "style-src": ["'self'"],
 } satisfies CspDirectives;
