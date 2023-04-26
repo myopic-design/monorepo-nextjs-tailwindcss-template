@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.4.1](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.4.0...v1.4.1) (2023-04-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @headlessui/react to v1.7.14 ([d81d07c](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/d81d07c425124265bbf03650cd93196cd12a42dd))
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.58.0 ([944f048](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/944f0480d883247aebf44120b4733a9706513aa1))
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.59.1 ([eb9b384](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/eb9b384b17929ecfa08339778637b5255ce5ffe9))
+* **deps:** update dependency eslint-config-turbo to v1.9.0 ([eb37643](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/eb37643fa326da360f3366f9773719401491e36a))
+* **deps:** update dependency eslint-config-turbo to v1.9.3 ([650ca9c](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/650ca9c7844c084fa10d2267deeedac858763563))
+* **deps:** update dependency eslint-plugin-testing-library to v5.10.3 ([c1eb38d](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/c1eb38ddd7c7b856f00d0bb87218250c34936db2))
+* disable Lighthouse `bf-cache` ([8c0ed78](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/8c0ed7851c0e9cbfe9c4f7aa0413438fc3b725c6))
+* remove deprecated CSP `prefetch-src` ([622afb2](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/622afb29fedccba2478468f06d695eaeced23b6d))
+
 ## [1.4.0](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.3.0...v1.4.0) (2023-04-07)
 
 
