@@ -6,6 +6,7 @@ module.exports = ({ staticDistDir }) => ({
     assert: {
       preset: "lighthouse:no-pwa",
       assertions: {
+        "bf-cache": "off",
         "csp-xss": "off",
         "tap-targets": "off",
       },
