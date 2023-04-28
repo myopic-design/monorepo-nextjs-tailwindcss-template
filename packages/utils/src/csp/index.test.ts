@@ -37,7 +37,7 @@ describe("csp", () => {
       it("returns CSP directives flattened as a string", () => {
         const cspContent = getCspContent("alert('OHAI')");
         expect(cspContent).toMatchInlineSnapshot(
-          `"upgrade-insecure-requests; default-src 'none'; connect-src 'self'; font-src 'self'; frame-src 'self'; img-src 'self'; script-src 'self' 'sha256-qR24ahFUfDwOYNDgoxwK9PYcT5onKsO99GDSCLphspk='; style-src 'self'"`
+          `"upgrade-insecure-requests; default-src 'none'; connect-src 'self'; font-src 'self'; frame-src 'self'; img-src 'self'; script-src 'self' 'sha256-eMuh8xiwcX72rRYNAGENurQBAcH7kLlAUQcoOri3BIo=' 'sha256-qR24ahFUfDwOYNDgoxwK9PYcT5onKsO99GDSCLphspk='; style-src 'self'"`
         );
       });
     });
