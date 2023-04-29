@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.4.1...v1.5.0) (2023-04-29)
+
+
+### Features
+
+* respect `prefers-color-scheme` in apps ([b0dc32b](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/b0dc32bc0cb63d0a67328553768f4edca9f57789))
+
 ## [1.4.1](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.4.0...v1.4.1) (2023-04-26)
 
 
