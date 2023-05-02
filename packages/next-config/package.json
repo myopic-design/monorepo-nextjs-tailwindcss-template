@@ -3,6 +3,6 @@
   "name": "next-config",
   "version": "0.0.0",
   "devDependencies": {
-    "@next/bundle-analyzer": "13.3.2"
+    "@next/bundle-analyzer": "13.3.4"
   }
 }
