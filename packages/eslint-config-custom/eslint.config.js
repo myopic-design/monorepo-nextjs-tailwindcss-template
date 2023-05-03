@@ -57,11 +57,11 @@ module.exports = {
   },
   overrides: [
     {
-      files: ["**/*.e2e.{js,jsx,ts,tsx}"],
+      files: ["**/*.e2e.{ts,tsx}"],
       extends: ["plugin:playwright/playwright-test"],
     },
     {
-      files: ["**/*.{spec,test}.{js,jsx,ts,tsx}"],
+      files: ["**/*.{spec,test}.{ts,tsx}"],
       extends: ["plugin:testing-library/react", "plugin:jest-dom/recommended"],
     },
   ],

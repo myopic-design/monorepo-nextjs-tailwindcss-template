@@ -3,7 +3,10 @@
   "display": "Base",
   "extends": "@tsconfig/strictest/tsconfig.json",
   "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
     "moduleResolution": "node",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "declaration": true,
     "declarationMap": true,
     "isolatedModules": true,

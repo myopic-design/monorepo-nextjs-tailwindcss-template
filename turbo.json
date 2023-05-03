@@ -16,11 +16,6 @@
       "env": ["ANALYZE", "GITHUB_REPOSITORY"],
       "outputs": [".next/**", "dist/**"]
     },
-    "start": {
-      "cache": false,
-      "persistent": true
-    },
-    "check": {},
     "storybook:dev": {
       "cache": false,
       "dependsOn": ["^build"],

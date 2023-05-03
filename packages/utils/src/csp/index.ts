@@ -65,7 +65,7 @@ const cspDev = {
   "font-src": ["'self'"],
   "frame-src": ["'self'"],
   "img-src": ["'self'"],
-  "script-src": ["'self'", "'unsafe-eval'"],
+  "script-src": ["'self'", "'unsafe-eval'", "'unsafe-inline'"],
   "style-src": ["'self'", "'unsafe-inline'"],
 } satisfies CspDirectives;
 
@@ -83,10 +83,12 @@ const cspProd = {
 } satisfies CspDirectives;
 
 export const getCspContent = (inlineScript: string): string => {
-  const csp = process.env["NODE_ENV"] === "production" ? cspProd : cspDev;
-  const cspWithInlineScriptHash = {
-    ...csp,
-    "script-src": [...csp["script-src"], cspHashOf(inlineScript)],
-  };
-  return flattenDirectives(cspWithInlineScriptHash);
+  const csp =
+    process.env["NODE_ENV"] === "production"
+      ? {
+          ...cspProd,
+          "script-src": [...cspProd["script-src"], cspHashOf(inlineScript)],
+        }
+      : cspDev;
+  return flattenDirectives(csp);
 };

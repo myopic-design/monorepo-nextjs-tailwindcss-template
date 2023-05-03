@@ -10,7 +10,6 @@
     "clean": "turbo run clean --no-daemon",
     "dev": "turbo run dev --no-daemon",
     "build": "turbo run build --no-daemon",
-    "start": "turbo run start --no-daemon",
     "check": "turbo run check --no-daemon",
     "storybook:dev": "turbo run storybook:dev --no-daemon",
     "storybook:build": "turbo run storybook:build --no-daemon",
@@ -52,7 +51,6 @@
     "prettier": "2.8.8",
     "prettier-plugin-tailwindcss": "0.2.8",
     "storybook": "7.0.7",
-    "tsup": "6.7.0",
     "turbo": "1.9.3",
     "typescript": "5.0.4"
   },

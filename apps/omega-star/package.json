@@ -5,8 +5,7 @@
   "scripts": {
     "clean": "rm -rf .lighthouseci .next .swc .turbo coverage dist e2e-report e2e-results out storybook-static",
     "dev": "next dev --port 3001",
-    "build": "next build && next export",
-    "start": "next start --port 3001",
+    "build": "next build",
     "lint": "next lint",
     "test:e2e": "playwright test",
     "test:unit": "jest --ci --coverage",

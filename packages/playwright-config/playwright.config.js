@@ -5,7 +5,7 @@ module.exports = ({ basePath, port }) => {
 
   /** @type {import('@playwright/test').PlaywrightTestConfig} */
   const config = {
-    testMatch: "**/*.e2e.{js,jsx,ts,tsx}",
+    testMatch: "**/*.e2e.{ts,tsx}",
     testDir: "e2e",
     outputDir: "e2e-results",
     retries: 2,

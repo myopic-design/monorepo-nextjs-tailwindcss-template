@@ -1,3 +1,4 @@
+import type { FunctionComponent } from "react";
 import { Footer } from "ui";
 
 const links = [
@@ -6,7 +7,7 @@ const links = [
   { children: "Pricing", href: "#pricing", variant: "text" },
 ] as const;
 
-const PageFooter = () => {
+const PageFooter: FunctionComponent = () => {
   return <Footer links={links} />;
 };
 

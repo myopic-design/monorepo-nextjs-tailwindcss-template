@@ -1,12 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Next",
-  "extends": "./base.json",
+  "extends": "./react.json",
   "compilerOptions": {
-    "target": "ES6",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "module": "ESNext",
-    "jsx": "preserve",
     "allowJs": true,
     "incremental": true,
     "noEmit": true,

@@ -2,15 +2,27 @@
   "private": true,
   "name": "utils",
   "version": "0.0.0",
-  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "type": "module",
   "exports": {
-    ".": "./dist"
+    ".": "./src/index.ts",
+    "./*": [
+      "./src/*.ts",
+      "./src/*/index.ts"
+    ]
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./src/*",
+        "./src/*/index"
+      ]
+    }
   },
   "scripts": {
     "clean": "rm -rf .swc .turbo coverage dist",
-    "dev": "tsup --watch",
-    "build": "tsup",
-    "check": "tsc --noEmit",
+    "dev": "pnpm build --watch",
+    "build": "tsc --noEmit",
     "test:unit": "jest --ci --coverage",
     "test:watch": "jest --watch"
   },

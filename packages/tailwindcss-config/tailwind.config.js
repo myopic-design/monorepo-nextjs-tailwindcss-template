@@ -3,10 +3,7 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const hocusPlugin = require("./hocus.plugin");
 
 module.exports = {
-  content: [
-    "src/**/*.{js,ts,jsx,tsx}",
-    // "../../packages/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["src/**/*.{ts,tsx}", "../../packages/ui/src/**/*.{ts,tsx}"],
   darkMode: "class",
   theme: {
     screens: {

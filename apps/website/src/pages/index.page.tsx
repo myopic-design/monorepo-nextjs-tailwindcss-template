@@ -20,7 +20,7 @@ export default function Home() {
               Myopic Design
             </span>
           </h1>
-          <div className="mx-auto mt-5 max-w-xl sm:flex sm:justify-center md:mt-8">
+          <div className="mx-auto mt-5 flex max-w-xl justify-center md:mt-8">
             <Button>Read the docs</Button>
           </div>
         </main>

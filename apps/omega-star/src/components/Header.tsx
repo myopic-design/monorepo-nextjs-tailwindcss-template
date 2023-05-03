@@ -1,3 +1,4 @@
+import type { FunctionComponent } from "react";
 import { Header } from "ui";
 
 const links = {
@@ -27,7 +28,7 @@ const links = {
   ],
 } as const;
 
-const PageHeader = () => {
+const PageHeader: FunctionComponent = () => {
   return <Header {...links} />;
 };
 

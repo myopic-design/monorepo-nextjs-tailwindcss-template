@@ -5,16 +5,27 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "types": "./dist/index.d.ts",
+  "type": "module",
   "exports": {
-    ".": "./dist",
-    "./styles.css": "./dist/styles.css"
+    ".": "./src/index.ts",
+    "./*": [
+      "./src/*.ts",
+      "./src/*.tsx",
+      "./src/*/index.ts"
+    ]
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./src/*",
+        "./src/*/index"
+      ]
+    }
   },
   "scripts": {
     "clean": "rm -rf .swc .turbo coverage dist storybook-static",
-    "dev": "tsup --watch",
-    "build": "tsup",
-    "check": "tsc --noEmit",
+    "dev": "pnpm build --watch",
+    "build": "tsc --noEmit",
     "storybook:dev": "storybook dev --quiet --port 6006",
     "storybook:build": "storybook build",
     "test:unit": "jest --ci --coverage",
