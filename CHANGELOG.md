@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.5.1...v1.6.0) (2023-05-03)
+
+
+### Features
+
+* transpile packages instead of building them, to simplify workflow ([674de51](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/674de51bd62f81291c80de00189eb61fbda36b76))
+
 ## [1.5.1](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.5.0...v1.5.1) (2023-05-02)
 
 
