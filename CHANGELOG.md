@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.0...v1.6.1) (2023-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-storybook to v0.6.12 ([4bbb263](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/4bbb263fa43a20d0e552b13d7ed1f340189a0e39))
+
 ## [1.6.0](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.5.1...v1.6.0) (2023-05-03)
 
 
