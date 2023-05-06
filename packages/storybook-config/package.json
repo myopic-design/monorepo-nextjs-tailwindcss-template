@@ -3,14 +3,14 @@
   "name": "storybook-config",
   "version": "0.0.0",
   "devDependencies": {
-    "@storybook/addon-a11y": "7.0.8",
-    "@storybook/addon-essentials": "7.0.8",
-    "@storybook/addon-interactions": "7.0.8",
-    "@storybook/addon-links": "7.0.8",
+    "@storybook/addon-a11y": "7.0.9",
+    "@storybook/addon-essentials": "7.0.9",
+    "@storybook/addon-interactions": "7.0.9",
+    "@storybook/addon-links": "7.0.9",
     "@storybook/addon-styling": "1.0.6",
-    "@storybook/addon-viewport": "7.0.8",
-    "@storybook/manager-api": "7.0.8",
-    "@storybook/nextjs": "7.0.8",
-    "@storybook/theming": "7.0.8"
+    "@storybook/addon-viewport": "7.0.9",
+    "@storybook/manager-api": "7.0.9",
+    "@storybook/nextjs": "7.0.9",
+    "@storybook/theming": "7.0.9"
   }
 }
