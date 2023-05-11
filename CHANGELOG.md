@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.3](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.2...v1.6.3) (2023-05-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-testing-library to v5.11.0 ([1705c5b](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/1705c5b336490db2087ba7eeeacb0a1cb5ac2d63))
+
 ## [1.6.2](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.1...v1.6.2) (2023-05-08)
 
 
