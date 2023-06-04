@@ -197,8 +197,8 @@ importers:
         specifier: 1.10.1
         version: 1.10.1(eslint@8.42.0)
       eslint-plugin-jest-dom:
-        specifier: 4.0.3
-        version: 4.0.3(eslint@8.42.0)
+        specifier: 5.0.0
+        version: 5.0.0(@testing-library/dom@9.2.0)(eslint@8.42.0)
       eslint-plugin-playwright:
         specifier: 0.12.0
         version: 0.12.0(eslint@8.42.0)
@@ -4177,6 +4177,7 @@ packages:
       dom-accessibility-api: 0.5.16
       lz-string: 1.5.0
       pretty-format: 27.5.1
+    dev: true
 
   /@testing-library/dom@9.2.0:
     resolution: {integrity: sha512-xTEnpUKiV/bMyEsE5bT4oYA0x0Z/colMtxzUY8bKyPXBNLn/e0V4ZjBZkEhms0xE4pv9QsPfSRu9AWS4y5wGvA==}
@@ -4190,7 +4191,6 @@ packages:
       dom-accessibility-api: 0.5.16
       lz-string: 1.5.0
       pretty-format: 27.5.1
-    dev: true
 
   /@testing-library/jest-dom@5.16.5:
     resolution: {integrity: sha512-N5ixQ2qKpi5OLYfwQmUb/5mSV9LneAcaUfp32pn4yCnpb8r/Yz0pXFPck21dIicKmi+ta5WRAknkZCfA8refMA==}
@@ -7151,14 +7151,15 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-jest-dom@4.0.3(eslint@8.42.0):
-    resolution: {integrity: sha512-9j+n8uj0+V0tmsoS7bYC7fLhQmIvjRqRYEcbDSi+TKPsTThLLXCyj5swMSSf/hTleeMktACnn+HFqXBr5gbcbA==}
+  /eslint-plugin-jest-dom@5.0.0(@testing-library/dom@9.2.0)(eslint@8.42.0):
+    resolution: {integrity: sha512-JyRZdZBM4rchaC3qZZhgNhC2DY+iCMJ8cYu8GkFczfB1Je+KMdzlegGRoGXKYR/Najd/m6gdChIOWQ+MBaKfJg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6', yarn: '>=1'}
     peerDependencies:
+      '@testing-library/dom': ^8.0.0 || ^9.0.0
       eslint: ^6.8.0 || ^7.0.0 || ^8.0.0
     dependencies:
       '@babel/runtime': 7.21.0
-      '@testing-library/dom': 8.20.0
+      '@testing-library/dom': 9.2.0
       eslint: 8.42.0
       requireindex: 1.2.0
     dev: false
