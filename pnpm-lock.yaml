@@ -197,8 +197,8 @@ importers:
         specifier: 1.10.1
         version: 1.10.1(eslint@8.42.0)
       eslint-plugin-jest-dom:
-        specifier: 5.0.0
-        version: 5.0.0(@testing-library/dom@9.2.0)(eslint@8.42.0)
+        specifier: 5.0.1
+        version: 5.0.1(@testing-library/dom@9.2.0)(eslint@8.42.0)
       eslint-plugin-playwright:
         specifier: 0.12.0
         version: 0.12.0(eslint@8.42.0)
@@ -7151,8 +7151,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-jest-dom@5.0.0(@testing-library/dom@9.2.0)(eslint@8.42.0):
-    resolution: {integrity: sha512-JyRZdZBM4rchaC3qZZhgNhC2DY+iCMJ8cYu8GkFczfB1Je+KMdzlegGRoGXKYR/Najd/m6gdChIOWQ+MBaKfJg==}
+  /eslint-plugin-jest-dom@5.0.1(@testing-library/dom@9.2.0)(eslint@8.42.0):
+    resolution: {integrity: sha512-zD/BjNk12R5R9cxIu8oa2HfNeDSknI3ewtN8nygIUMQuieWDnTY9Np//6a1Z3G7Y3dx3l45hCUR4EphsgRmUtA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6', yarn: '>=1'}
     peerDependencies:
       '@testing-library/dom': ^8.0.0 || ^9.0.0
