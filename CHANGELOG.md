@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.12](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.11...v1.6.12) (2023-06-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @headlessui/react to v1.7.15 ([d35a54e](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/d35a54ecf51f6bde482c854a1e377fa85da12897))
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.59.9 ([596d39c](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/596d39cd7eda938e21772c8803cfb94d57b42f15))
+* **deps:** update dependency eslint-plugin-jest-dom to v5 ([e430e6a](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/e430e6a45886fe39ade3b4ff6ab0d2e2bbad4330))
+* **deps:** update dependency eslint-plugin-jest-dom to v5.0.1 ([f6d0584](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/f6d0584d9ec6784602306acd03a6ba96efc62b42))
+* **deps:** update turbo monorepo to v1.10.1 ([2e36434](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/2e364345cd4b21be8a51327d52c96e452319465b))
+* **deps:** update turbo monorepo to v1.10.2 ([de6de92](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/de6de92fdc7dda2e1efe15a84a38c6e661379a34))
+
 ## [1.6.11](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.10...v1.6.11) (2023-05-31)
 
 

@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "monorepo-nextjs-tailwindcss-template",
-  "version": "1.6.11",
+  "version": "1.6.12",
   "repository": {
     "type": "git",
     "url": "https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template.git"
