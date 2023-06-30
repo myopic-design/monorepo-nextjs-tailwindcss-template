@@ -7,7 +7,7 @@
     "@storybook/addon-essentials": "7.0.24",
     "@storybook/addon-interactions": "7.0.24",
     "@storybook/addon-links": "7.0.24",
-    "@storybook/addon-styling": "1.3.1",
+    "@storybook/addon-styling": "1.3.2",
     "@storybook/addon-viewport": "7.0.24",
     "@storybook/manager-api": "7.0.24",
     "@storybook/nextjs": "7.0.24",
