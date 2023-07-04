@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.19](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.18...v1.6.19) (2023-07-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.61.0 ([863f52e](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/863f52e84b712ee3bceb482b8476be9ce346c60c))
+
 ## [1.6.18](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.17...v1.6.18) (2023-07-01)
 
 
