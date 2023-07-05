@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.20](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.19...v1.6.20) (2023-07-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-playwright to v0.15.3 ([029c1f1](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/029c1f14c9550c09ff51f775dd2c265daf0abdc1))
+
 ## [1.6.19](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.18...v1.6.19) (2023-07-04)
 
 
