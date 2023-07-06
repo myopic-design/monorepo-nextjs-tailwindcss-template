@@ -48,8 +48,8 @@ importers:
         specifier: 18.2.6
         version: 18.2.6
       '@types/testing-library__jest-dom':
-        specifier: 5.14.6
-        version: 5.14.6
+        specifier: 5.14.7
+        version: 5.14.7
       eslint:
         specifier: 8.44.0
         version: 8.44.0
@@ -4623,8 +4623,8 @@ packages:
       '@types/jest': 29.5.2
     dev: true
 
-  /@types/testing-library__jest-dom@5.14.6:
-    resolution: {integrity: sha512-FkHXCb+ikSoUP4Y4rOslzTdX5sqYwMxfefKh1GmZ8ce1GOkEHntSp6b5cGadmNfp5e4BMEWOMx+WSKd5/MqlDA==}
+  /@types/testing-library__jest-dom@5.14.7:
+    resolution: {integrity: sha512-PFDoAbR9y8pD9+41oM1Yy0nVCkaRPlklmDZoPCXhNpR0ZO13HAYWqdNEjLtvIiveBmfB/+jdvmuOVeOXehKOaA==}
     dependencies:
       '@types/jest': 29.5.2
     dev: true
