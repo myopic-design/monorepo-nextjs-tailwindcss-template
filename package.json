@@ -30,7 +30,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.6.6",
     "@commitlint/config-conventional": "17.6.6",
-    "@playwright/test": "1.35.1",
+    "@playwright/test": "1.36.0",
     "@storybook/blocks": "7.0.26",
     "@storybook/jest": "0.1.0",
     "@storybook/react": "7.0.26",
