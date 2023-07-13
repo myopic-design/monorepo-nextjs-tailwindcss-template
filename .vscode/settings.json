@@ -8,5 +8,23 @@
   "editor.tabSize": 2,
   "files.associations": {
     "*.css": "tailwindcss"
-  }
+  },
+  "files.readonlyInclude": {
+    ".cache/**": true,
+    ".next/**": true,
+    ".swc/**": true,
+    ".turbo/**": true,
+    "coverage/**": true,
+    "dist/**": true,
+    "e2e-report/**": true,
+    "e2e-results/**": true,
+    "node_modules/**": true,
+    "out/**": true,
+    "storybook-static/**": true,
+    ".eslintcache": true
+  },
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.tsdk": "root/node_modules/typescript/lib",
+  "workbench.editor.labelFormat": "medium"
 }
