@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.22](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.21...v1.6.22) (2023-07-19)
+
+
+### Bug Fixes
+
+* **deps:** update turbo monorepo to v1.10.8 ([e0f2509](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/e0f2509cb1a6176320ed3a6950bfc3f4f49fe265))
+
 ## [1.6.21](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.20...v1.6.21) (2023-07-11)
 
 
