@@ -16,7 +16,7 @@
   "dependencies": {
     "@headlessui/react": "1.7.15",
     "clsx": "2.0.0",
-    "next": "13.4.10",
+    "next": "13.4.11",
     "next-themes": "0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
