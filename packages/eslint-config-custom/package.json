@@ -11,7 +11,7 @@
     "eslint-plugin-jest-dom": "5.0.1",
     "eslint-plugin-playwright": "0.15.3",
     "eslint-plugin-simple-import-sort": "10.0.0",
-    "eslint-plugin-storybook": "0.6.12",
+    "eslint-plugin-storybook": "0.6.13",
     "eslint-plugin-testing-library": "5.11.0",
     "next": "13.4.10"
   }
