@@ -7,7 +7,7 @@ export const Logo: FunctionComponent<LogoProps> = (props) => {
   const { className, ...rest } = props;
   const finalClassName = clsx(
     "rounded-lg text-neutral-900 ring-2 ring-inset ring-neutral-900 hocus:bg-neutral-200 dark:text-white dark:ring-white dark:hocus:bg-neutral-700",
-    className
+    className,
   );
 
   return (
