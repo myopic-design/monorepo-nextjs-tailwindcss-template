@@ -1,5 +1,4 @@
 {
   "printWidth": 100,
-  "plugins": ["prettier-plugin-tailwindcss"],
-  "pluginSearchDirs": ["."]
+  "plugins": ["prettier-plugin-tailwindcss"]
 }

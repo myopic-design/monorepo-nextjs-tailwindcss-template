@@ -11,7 +11,7 @@ export interface ButtonLinkProps extends ComponentProps<typeof Link> {
 
 const ButtonLinkComponent: ForwardRefRenderFunction<HTMLAnchorElement, ButtonLinkProps> = (
   props,
-  ref
+  ref,
 ) => {
   const { className, variant = "default", ...rest } = props;
   const finalClassName = clsx(commonStyles, variantStyles[variant], className);

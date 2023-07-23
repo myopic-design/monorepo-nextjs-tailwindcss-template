@@ -21,17 +21,17 @@ describe("Footer", () => {
     expect(
       withinNavQuickLinks.getByRole("link", {
         name: "Features",
-      })
+      }),
     ).toHaveAttribute("href", "#features");
     expect(
       withinNavQuickLinks.getByRole("link", {
         name: "Testimonials",
-      })
+      }),
     ).toHaveAttribute("href", "#testimonials");
     expect(
       withinNavQuickLinks.getByRole("link", {
         name: "Pricing",
-      })
+      }),
     ).toHaveAttribute("href", "#pricing");
   });
 
@@ -50,17 +50,17 @@ describe("Footer", () => {
     expect(
       withinNavSocial.getByRole("link", {
         name: "Myopic Design on GitHub",
-      })
+      }),
     ).toHaveAttribute("href", "https://github.com/myopic-design");
     expect(
       withinNavSocial.getByRole("link", {
         name: "Myopic Design on Mastodon",
-      })
+      }),
     ).toHaveAttribute("href", "https://hachyderm.io/@myopic-design");
     expect(
       withinNavSocial.getByRole("link", {
         name: "Myopic Design on Twitter",
-      })
+      }),
     ).toHaveAttribute("href", "https://twitter.com/myopic-design");
   });
 });
