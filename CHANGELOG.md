@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.25](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.24...v1.6.25) (2023-07-25)
+
+
+### Bug Fixes
+
+* **deps:** revert dependency @headlessui/react to v1.7.14 ([8044630](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/8044630c6f5fa95cb5cabc7efc4be26689e1029d))
+
 ## [1.6.24](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.23...v1.6.24) (2023-07-25)
 
 
