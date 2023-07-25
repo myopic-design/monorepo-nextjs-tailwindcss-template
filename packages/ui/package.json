@@ -32,10 +32,10 @@
     "test:watch": "jest --watch"
   },
   "peerDependencies": {
-    "@headlessui/react": "^1.7.13",
-    "clsx": "^1.2.1 || ^2.0.0",
-    "next": "^13.2.4",
-    "react": "^18.2.0"
+    "@headlessui/react": "1.7.14",
+    "clsx": "2.0.0",
+    "next": "13.4.12",
+    "react": "18.2.0"
   },
   "devDependencies": {
     "jest-config": "workspace:*",
