@@ -19,5 +19,6 @@
   "semanticCommits": "enabled",
   "constraints": {
     "pnpm": "8"
-  }
+  },
+  "ignoreDeps": ["@headlessui/react"]
 }
