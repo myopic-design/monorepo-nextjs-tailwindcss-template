@@ -79,7 +79,7 @@ const cspProd = {
   "frame-src": ["'self'"],
   "img-src": ["'self'"],
   "script-src": ["'self'", nextThemesHash],
-  "style-src": ["'self'"],
+  "style-src": ["'self'", "'unsafe-inline'"],
 } satisfies CspDirectives;
 
 export const getCspContent = (inlineScript: string): string => {
