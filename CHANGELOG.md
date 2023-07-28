@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.25...v1.7.0) (2023-07-28)
+
+
+### Features
+
+* add `unsafe-inline` to `style-src` CSP, since @headlessui/react requires it ([8f917dc](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/commit/8f917dc7e932629f48a39865ed4695c707368a90))
+
 ## [1.6.25](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.24...v1.6.25) (2023-07-25)
 
 
